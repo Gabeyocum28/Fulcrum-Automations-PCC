@@ -1,0 +1,39 @@
+{
+  "project_name": "Inhouse Transfer",
+  "project_type": "Fulcrum Data Automation",
+  "description": "Automated data processing and migration system for internal Fulcrum form transfers",
+  "version": "1.0.0",
+  "repository": "https://github.com/Gabeyocum28/Fulcrum-Automations-PCC.git",
+  "main_file": "fulcrum_processor.py",
+  "entry_point": "fulcrum_processor.py",
+  "dependencies_file": "requirements.txt",
+  "config_file": "fulcrum_config.ini",
+  "field_mappings_file": "field_mappings.json",
+  "test_directory": "tests/",
+  "debug_directory": "debug/",
+  "cache_directory": "cached/",
+  "features": [
+    "Smart Field Mapping",
+    "Smart CSV Export",
+    "Concurrent Photo Downloads",
+    "Organized Output",
+    "Status Filtering",
+    "Photo Management",
+    "Import Processing"
+  ],
+  "use_cases": [
+    "Form Migration",
+    "Data Export",
+    "Field Mapping",
+    "Photo Management",
+    "Data Validation"
+  ],
+  "tags": [
+    "fulcrum",
+    "automation",
+    "data-migration",
+    "csv-export",
+    "photo-management",
+    "field-mapping"
+  ]
+}
